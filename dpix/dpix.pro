@@ -30,7 +30,7 @@ else {
         }
 
         LIBS += -framework CoreFoundation
-        QMAKE_CXXFLAGS += -fopenmp
+        QMAKE_CXXFLAGS += 
     }
     else {
         DEFINES += LINUX

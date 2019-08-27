@@ -81,6 +81,7 @@ The usual procedure of "qmake -r" and "make" should work. On Mac, you may need
 to use "qmake -r -spec macx-g++" to create Makefiles, rather than Xcode
 projects.  Building with Xcode should be possible, but has not been tested.
 
+
 To compile in release mode, run:
 qmake -r "CONFIG += release"
 
@@ -97,3 +98,9 @@ Please see the COPYING file for license information.
 
 Forrester Cole, Michael Burns, Keith Morley, Adam Finkelstein, and Pierre
 Benard wrote the code.
+
+
+#shayan:
+For mac
+/usr/local/Cellar/qt@4/4.8.7_5/bin/qmake -r
+make -j 6

@@ -19,7 +19,7 @@ else {
 
 	macx {
 		DEFINES += DARWIN
-        QMAKE_CXXFLAGS += -fopenmp
+        QMAKE_CXXFLAGS += 
 	}
 	else {
 		DEFINES += LINUX
@@ -28,6 +28,7 @@ else {
 
 CONFIG += staticlib
 QT += opengl xml
+LIBS += -framework GLUT
 
 TARGET = qglviewer
 

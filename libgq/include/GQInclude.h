@@ -17,7 +17,7 @@ See the COPYING file for details.
 
 #ifdef DARWIN
 #    include <GLee.h>
-#    include <glu.h>
+#    include <OpenGL/glu.h>
 #endif
 #ifdef LINUX
 #    include <QVariant>

@@ -24,6 +24,8 @@
 #include "camera.h"
 #include "qglviewer.h"
 
+#include <OpenGL/glu.h>
+
 using namespace std;
 using namespace qglviewer;
 

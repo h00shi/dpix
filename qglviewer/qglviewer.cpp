@@ -25,6 +25,8 @@
 #include "camera.h"
 #include "keyFrameInterpolator.h"
 
+#include <OpenGL/glu.h>
+
 #if QT_VERSION >= 0x040000
 # include <QtAlgorithms>
 # include <QTextEdit>

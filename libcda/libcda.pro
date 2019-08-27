@@ -16,7 +16,7 @@ else {
 
 	macx {
 		DEFINES += DARWIN
-        QMAKE_CXXFLAGS += -fopenmp
+        QMAKE_CXXFLAGS += 
 	}
 	else {
 		DEFINES += LINUX

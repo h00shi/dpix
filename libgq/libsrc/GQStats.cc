@@ -191,7 +191,7 @@ void GQStats::removeTimer( int which )
     Record* timer = &(_records[TIMER][which]);
     assert( timer->children.size() == 0 );
     Record* parent = &_headers[TIMER];
-    if (timer->parent >= 0)
+    if (timer->parent)
     {
         parent = timer->parent;
     }

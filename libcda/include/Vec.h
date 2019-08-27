@@ -58,6 +58,13 @@ using std::max;
 using std::swap;
 using std::sqrt;
 
+// Utility functions for square and cube, to go along with sqrt and cbrt
+template <class T>
+static inline T sqr(const T &x)
+{
+	return x*x;
+}
+
 
 // Let gcc optimize conditional branches a bit better...
 #ifndef likely
@@ -475,12 +482,6 @@ static inline T trinorm(const T &v0, const T &v1, const T &v2)
 }
 
 
-// Utility functions for square and cube, to go along with sqrt and cbrt
-template <class T>
-static inline T sqr(const T &x)
-{
-	return x*x;
-}
 
 template <class T>
 static inline T cube(const T &x)
